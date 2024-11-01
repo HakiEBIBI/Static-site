@@ -1,57 +1,24 @@
-  .merriweather-regular {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .merriweather-bold {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .merriweather-black {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .merriweather-light-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .merriweather-regular-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .merriweather-bold-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .merriweather-black-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-
-* {
-
+  * {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    gap: 8px;
-}
+  }
 
-.header {
+  h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 110px;
+  }
+
+  h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+  }
+
+  .header {
     display: flex;
     justify-content: space-between;
     height: 84px;
@@ -62,22 +29,22 @@
     padding-bottom: 8px;
     box-shadow: 0px 8px 20px 5px #00000014;
 
-}
+  }
 
-.nav-bar {
+  .nav-bar {
     display: flex;
     gap: 60px;
     align-items: center;
-}
+  }
 
-.nav-menu {
+  .nav-menu {
     display: flex;
     gap: 60px;
     align-items: center;
     justify-content: 60px;
-}
+  }
 
-.contact-us {
+  .contact-us {
     background-color: #020E35;
     color: white;
     padding-left: 40px;
@@ -85,18 +52,53 @@
     padding-right: 40px;
     padding-bottom: 24px;
     gap: 4px;
-}
+  }
 
-.logo {
+  .logo {
     gap: 4px;
-}
+  }
 
-#selected-menu {
- border-bottom: 4px solid #FF5678;
- padding-bottom: 4px;
-}
+  #selected-menu {
+    border-bottom: 4px solid #FF5678;
+    padding-bottom: 4px;
+  }
 
-.menu-item {
+  .menu-item {
     box-sizing: border-box;
     padding-bottom: 8px;
-}
+  }
+
+  .Hero-section {
+    padding: 300px 150px 200px 150px;
+    align-items: center;
+    display: flex;
+    gap: 480px;
+    justify-content: space-between;
+  }
+
+  .Heading {
+    gap: 56px;
+  }
+
+  .logo-icetea {
+    padding: 4px 0px 4px 4px;
+    gap: 4px;
+  }
+
+  .See-our-work {
+    padding: 24px 40px;
+    background-color: #020E35;
+    color: white;
+    box-shadow: 0px 20px 40px 5px #00000040;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    display: inline-block;
+  }
+
+  mark {
+    background: #FF5678;
+    color: white;
+    font-weight: 900;
+  }
