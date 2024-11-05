@@ -1,173 +1,204 @@
-  * {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
-    box-sizing: border-box;
-    margin: 0;
+* {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+}
 
-  }
+h1 {
+  font-weight: 900;
+  font-size: 76px;
+  line-height: 110px;
+}
 
-  h1 {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-size: 76px;
-    line-height: 110px;
-  }
+h2 {
+  font-weight: 700;
+}
 
-  h2 {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-  }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 84px;
+  padding: 8px 150px;
+  box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.08);
+}
 
-  .header {
-    display: flex;
-    justify-content: space-between;
-    height: 84px;
-    align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    box-shadow: 0px 8px 20px 5px #00000014;
+.nav-bar,
+.nav-menu {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
 
-  }
+.contact-us {
+  background-color: #020E35;
+  color: white;
+  padding: 24px 40px;
+}
 
-  .nav-bar {
-    display: flex;
-    gap: 60px;
-    align-items: center;
-  }
+#selected-menu {
+  border-bottom: 4px solid #FF5678;
+  padding-bottom: 4px;
+}
 
-  .nav-menu {
-    display: flex;
-    gap: 60px;
-    align-items: center;
-    justify-content: 60px;
-  }
+.menu-item {
+  padding-bottom: 8px;
+}
 
-  .contact-us {
-    background-color: #020E35;
-    color: white;
-    padding-left: 40px;
-    padding-top: 24px;
-    padding-right: 40px;
-    padding-bottom: 24px;
-    gap: 4px;
-  }
+.Hero-section {
+  padding: 300px 150px 200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 480px;
+  align-items: center;
+}
 
-  .logo {
-    gap: 4px;
-  }
+.See-our-work {
+  padding: 24px 40px;
+  background-color: #020E35;
+  color: white;
+  box-shadow: 0px 20px 40px 5px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  display: inline-block;
+}
 
-  #selected-menu {
-    border-bottom: 4px solid #FF5678;
-    padding-bottom: 4px;
-  }
+mark {
+  background: #FF5678;
+  color: white;
+  font-weight: 900;
+}
 
-  .menu-item {
-    box-sizing: border-box;
-    padding-bottom: 8px;
-  }
+.powered-by {
+  padding: 100px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 511px;
+}
 
-  .Hero-section {
-    padding: 300px 150px 200px 150px;
-    align-items: center;
-    display: flex;
-    gap: 480px;
-    justify-content: space-between;
-  }
+.zone-text-poweredby {
+  gap: 42px;
+}
 
-  .Heading {
-    gap: 56px;
-  }
+.text-powered-by {
+  font-size: 18px;
+  line-height: 23px;
+}
 
-  .logo-icetea {
-    padding: 4px 0px 4px 4px;
-    gap: 4px;
-  }
+.all-btn-powered-by {
+  display: flex;
+  align-items: center;
+  gap: 63px;
+  margin-top: 60px;
+}
 
-  .See-our-work {
-    padding: 24px 40px;
-    background-color: #020E35;
-    color: white;
-    box-shadow: 0px 20px 40px 5px #00000040;
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
-    display: inline-block;
-  }
+.powered-by-title {
+  font-size: 54px;
+  line-height: 62px;
+  color: #020E35;
+  margin-bottom: 42px;
+  margin-right: 89px;
+  background: linear-gradient(to bottom, transparent 78%, #FF5678 50%);
+}
 
-  mark {
-    background: #FF5678;
-    color: white;
-    font-weight: 900;
-  }
+.all-watchvideos {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 
-  .powered-by {
-    padding: 100px 150px 100px 150px;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    gap: 511px;
-  }
+.btn-powered-by {
+  padding: 24px 40px;
+  background-color: #020E35;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  display: inline-block;
+  box-shadow: 0px 20px 40px 5px rgba(0, 0, 0, 0.25);
+}
 
-  .kitchen {
-    padding: 4px 0px 4px 4px;
-    gap: 4px;
-  }
+.watch-videos {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #2B2B2B;
+}
 
-  .content {
-    gap: 60px;
-  }
+.things-we-enjoy {
+  padding: 100px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .zone-text-poweredby {
-    gap: 42px;
-  }
+.left-side-things-we-enjoy,
+.right-side-things-we-enjoy {
+  display: flex;
+  flex-direction: column;
+}
 
-  .text-powered-by {
-    font-size: 18px;
-    line-height: 23px;
-  }
+.left-side-things-we-enjoy {
+  width: 545px;
+  height: 592px;
+}
 
-  .all-btn-powered-by {
-    gap: 63px;
-    margin-top: 60px;
-    display: flex;
-    align-items: center;
-  }
+.right-side-things-we-enjoy {
+  width: 543px;
+  height: 410px;
+}
 
-  .powered-by-title {
-    font-size: 54px;
-    line-height: 62px;
-    color: #020E35;
-    margin-bottom: 42px;
-    margin-right: 89px;
-    background: linear-gradient(to bottom, transparent 75%, #FF5678 50%);
-  }
+.number-point {
+  font-size: 64px;
+  line-height: 72px;
+  -webkit-text-stroke: 1px #020E35;
+  -webkit-text-fill-color: white;
+  margin-right: 40px;
+  margin-bottom: 38px;
+}
 
-  .all-watchvideos {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-  }
+.title-things-we-enjoy {
+  font-size: 54px;
+  line-height: 62px;
+  background: linear-gradient(to bottom, transparent 55%, #FF5678 50%);
+  width: 457px;
+  height: 62px;
+  margin-bottom: 120px;
+}
 
-  .btn-powered-by {
-    padding: 24px 40px;
-    gap: 63px;
-    background-color: #020E35;
-    color: white;
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
-    display: inline-block;
-  }
+.title-number-point {
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
 
-  .watch-videos {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
-    color: #2B2B2B;
+.text-number-point {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+}
 
-  }
+.point {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.text-block-things-we-enjoy {
+  padding-top: 8px;
+}
+
+.bullet-point {
+  width: 545px;
+  height: 410px;
+  gap: 40px;
+}
+
+.illu-pink-circle-things-we-enjoy {
+  position: absolute;
+  top: 1987.05px;
+  left: 0%;
+  z-index: -1;
+}
