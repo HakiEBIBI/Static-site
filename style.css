@@ -202,3 +202,55 @@ mark {
   left: 0%;
   z-index: -1;
 }
+
+.craft-experience {
+  padding: 100px 150px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.heading-craft-experience {
+  gap: 60px;
+  width: 664px;
+  height: 503px;
+}
+
+.title-craft-experience {
+  font-size: 54px;
+  line-height: 72px;
+  width: 664px;
+  height: 216px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.title-craft-experience::after {
+  content: "";
+  position: absolute;
+  width: 406px;
+  height: 25px;
+  left: 0px;
+  bottom: 9px;
+  background: #FF5678;
+  z-index: -1;
+}
+
+.text-craft-experience {
+  font-size: 18px;
+  line-height: 32px;
+  width: 481px;
+  height: 96px;
+  margin-bottom: 60px;
+}
+
+.btn-craft-experience {
+  padding: 24px 40px;
+  gap: 4px;
+  background-color: #020E35;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  display: inline-block;
+  box-shadow: 0px 20px 40px 5px #00000040;
+}
