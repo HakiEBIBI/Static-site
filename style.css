@@ -254,3 +254,91 @@ mark {
   display: inline-block;
   box-shadow: 0px 20px 40px 5px #00000040;
 }
+
+.our-team {
+  padding: 100px 150px;
+  gap: 104px;
+}
+
+.title-our-team {
+  font-size: 54px;
+  line-height: 72px;
+  justify-content: space-around;
+  display: flex;
+  position: relative;
+  margin-bottom: 104px;
+}
+
+.title-our-team::after {
+  content: "";
+  position: absolute;
+  width: 415px;
+  height: 25px;
+  left: 600px;
+  bottom: 9px;
+  background: #FF5678;
+  z-index: -1;
+}
+
+.content-our-team {
+  width: 1620px;
+  height: 1109px;
+}
+
+.top-block-our-team {
+  display: inline-grid;
+  grid-template-columns: 519px 539px 519px;
+  gap: 19px;
+  margin-bottom: 51px;
+  text-align: center;
+}
+
+.bottom-block-our-team {
+  display: inline-grid;
+  grid-template-columns: 519px 519px 519px;
+  gap: 32px;
+  text-align: center;
+}
+
+.block-our-team {
+  width: 519px;
+  height: 519px;
+  border: 1px solid #B8B8B8;
+  border-radius: 50px;
+
+}
+
+.block-mark-our-team {
+  width: 539px;
+  height: 539px;
+  border: 1px solid #B8B8B8;
+  border-radius: 50px;
+  box-shadow: 0px 20px 40px 5px #00000026;
+}
+
+.photo-our-team {
+  margin-top: 88px;
+  margin-bottom: 60px;
+}
+
+.name-our-team-title {
+  margin-bottom: 24px;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.name-our-team-text {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.photo-our-team-mark {
+  margin-top: 74.5px;
+  margin-bottom: 60px;
+}
+
+.name-our-team-post {
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 24px;
+}
