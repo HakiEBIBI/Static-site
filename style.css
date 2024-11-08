@@ -425,3 +425,153 @@ mark {
   text-align: center;
   margin: auto;
 }
+
+.testimonial {
+  height: 1280px;
+  padding: 100px 150px;
+}
+
+.heading-testimonial {
+  margin: auto;
+  text-align: center;
+  width: 369px;
+  height: 128px;
+  margin-bottom: 100px;
+}
+
+.title-testimonial {
+  margin-bottom: 20px;
+  font-size: 54px;
+  line-height: 72px;
+}
+
+.under-title-testimonial {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.frame-testimonial {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.block-testimonial-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 412px;
+  height: 555px;
+  border: 1px solid #949494;
+  border-radius: 150px;
+}
+
+.block-testimonial-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 412px;
+  height: 555px;
+  border: 1px solid #949494;
+  border-radius: 150px;
+}
+
+.block-testimonial-3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 460px;
+  height: 672px;
+  border: 1px solid #949494;
+  border-radius: 150px;
+}
+
+.block-testimonial-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 412px;
+  height: 555px;
+  border: 1px solid #949494;
+  border-radius: 150px;
+}
+
+.block-testimonial-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 412px;
+  height: 555px;
+  border: 1px solid #949494;
+  border-radius: 150px;
+}
+
+.my-experience-testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 253px;
+  height: 115px;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.my-experience-testimonial-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 92px;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.samantha-testimonial {
+  font-size: 18;
+  margin-bottom: 6px;
+}
+
+.ceo-testimonial {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.five-star-testimonial {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.yellow-star-testimonial {
+  margin-bottom: 24px;
+}
+
+.photo-testimonial {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 24px;
+  margin-top: 60px;
+}
+
+.photo-testimonial-3 {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 24px;
+  margin-top: 130px;
+}
+
+.arrow-testimonial {
+  display: flex;
+  justify-content: space-between;
+}
