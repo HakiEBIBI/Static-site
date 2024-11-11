@@ -773,14 +773,14 @@ footer {
 
 .circle-footer-left {
   position: absolute;
-  top: 10177.15px;
+  top: 9400px;
   left: 0%;
   z-index: -1;
 }
 
 .circle-footer-right {
   position: absolute;
-  top: 10167.15px;
+  top: 9400px;
   right: 0%;
   z-index: -1;
 }
