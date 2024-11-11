@@ -15,10 +15,11 @@ This project is a simple web layout featuring a header, a hero section, testimon
    Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone <repository_url>
+   git clone <git@github.com:HakiEBIBI/static-site.git>
 
+Once the repository is cloned search the file static-site and double-click on the html file and it opens it on your main browser
 
-## Project Structure
+## How to open the HTML file
 
 The project consists of two main files:
 
