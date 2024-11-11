@@ -1,3 +1,4 @@
+/*do that all the text have this style*/
 * {
   font-family: "Merriweather", serif;
   font-weight: 400;
@@ -5,16 +6,19 @@
   margin: 0;
 }
 
+/*put a special style for big text*/
 h1 {
   font-weight: 900;
   font-size: 76px;
   line-height: 110px;
 }
 
+/*put a special style for text that lower than h1 but bigger than normal text*/
 h2 {
   font-weight: 700;
 }
 
+/* Header Section Style */
 .header {
   display: flex;
   justify-content: space-between;
@@ -24,6 +28,7 @@ h2 {
   box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.08);
 }
 
+/* Navigation Bar and Menu Style */
 .nav-bar,
 .nav-menu {
   display: flex;
@@ -31,29 +36,40 @@ h2 {
   align-items: center;
 }
 
+/* Contact Us Section Style */
 .contact-us {
   background-color: #020E35;
   color: white;
   padding: 24px 40px;
 }
 
+/* add a pink bar in HOME  */
 #selected-menu {
   border-bottom: 4px solid #FF5678;
   padding-bottom: 4px;
 }
 
+/* add a padding to HOME ABOUT SERVICES OUR WORK*/
 .menu-item {
   padding-bottom: 8px;
 }
 
+/* Hero Section Layout */
 .Hero-section {
   padding: 300px 150px 200px;
   display: flex;
   justify-content: space-between;
-  gap: 480px;
   align-items: center;
 }
 
+/* configure the title of create Brands*/
+.Headline {
+  width: 548px;
+  height: 330px;
+  margin-bottom: 56px;
+}
+
+/* configure the button see our work*/
 .See-our-work {
   padding: 24px 40px;
   background-color: #020E35;
@@ -65,18 +81,19 @@ h2 {
   display: inline-block;
 }
 
+/* add a pink background to the word BRANDS*/
 mark {
   background: #FF5678;
   color: white;
   font-weight: 900;
 }
 
+
 .powered-by {
   padding: 100px 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 511px;
 }
 
 .zone-text-poweredby {
@@ -84,6 +101,8 @@ mark {
 }
 
 .text-powered-by {
+  width: 517px;
+  height: 138px;
   font-size: 18px;
   line-height: 23px;
 }
@@ -96,12 +115,26 @@ mark {
 }
 
 .powered-by-title {
+  width: 428px;
+  height: 124px;
   font-size: 54px;
   line-height: 62px;
   color: #020E35;
   margin-bottom: 42px;
   margin-right: 89px;
-  background: linear-gradient(to bottom, transparent 78%, #FF5678 50%);
+  position: relative;
+}
+
+/* put a pink bar to the talented people*/
+.powered-by-title::after {
+  content: "";
+  position: absolute;
+  width: 423px;
+  height: 29px;
+  left: 3px;
+  bottom: -2px;
+  background: #FF5678;
+  z-index: -1;
 }
 
 .all-watchvideos {
@@ -110,6 +143,7 @@ mark {
   gap: 24px;
 }
 
+/*configure the button*/
 .btn-powered-by {
   padding: 24px 40px;
   background-color: #020E35;
@@ -135,6 +169,7 @@ mark {
   align-items: center;
 }
 
+/* flex in column the left side and right side of things we enjoy*/
 .left-side-things-we-enjoy,
 .right-side-things-we-enjoy {
   display: flex;
@@ -151,6 +186,7 @@ mark {
   height: 410px;
 }
 
+/* put an effect on the numbers*/
 .number-point {
   font-size: 64px;
   line-height: 72px;
@@ -160,6 +196,7 @@ mark {
   margin-bottom: 38px;
 }
 
+/* put an pink bar ont he title */
 .title-things-we-enjoy {
   font-size: 54px;
   line-height: 62px;
@@ -300,6 +337,7 @@ mark {
 
 }
 
+/* put an shadow and growth case of meet the team when we put our cursor on it*/
 .block-our-team:hover {
   box-shadow: 0px 20px 40px 5px #00000026;
   transform: scale(1.1);
@@ -388,6 +426,7 @@ mark {
 
 }
 
+/* give an case per elements*/
 .top-left {
   grid-column: 1;
   grid-row: 1 / 3;
@@ -459,6 +498,7 @@ mark {
   margin-bottom: 100px;
 }
 
+/* put borders and align some text to the block*/
 .block-testimonial-1 {
   display: flex;
   justify-content: center;
@@ -538,7 +578,7 @@ mark {
 }
 
 .samantha-testimonial {
-  font-size: 18;
+  font-size: 18px;
   margin-bottom: 6px;
 }
 
@@ -696,6 +736,7 @@ mark {
   z-index: -1;
 }
 
+/* custom the block to write */
 #name-news-letters {
   background-color: #FFEEF6;
   width: 656px;
@@ -723,4 +764,147 @@ mark {
   line-height: 23px;
   display: inline-block;
   box-shadow: 0px 20px 40px 5px #00000040;
+}
+
+footer {
+  height: 511px;
+  padding-top: 100px;
+}
+
+.circle-footer-left {
+  position: absolute;
+  top: 10177.15px;
+  left: 0%;
+  z-index: -1;
+}
+
+.circle-footer-right {
+  position: absolute;
+  top: 10167.15px;
+  right: 0%;
+  z-index: -1;
+}
+
+.info {
+  height: 269px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 60px;
+}
+
+.frame-3-footer {
+  width: 409.8px;
+  height: 269px;
+}
+
+.social-media-footer {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 32px;
+}
+
+.all-adress {
+  width: 148px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.info-services {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.text-services-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.services-footer {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.info-company {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.text-company-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.company-footer {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.info-about-us {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.text-about-us-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.about-us-footer {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.info-legal-stuff {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.text-legal-stuff-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.legal-stuff-footer {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.terms-footer {
+  height: 82px;
+  padding: 32px 150px;
+  display: flex;
+  justify-content: space-between;
+  background: #020E35;
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.right-side-footer {
+  display: flex;
+  gap: 60px;
+  font-size: 14px;
+  line-height: 18px;
 }
